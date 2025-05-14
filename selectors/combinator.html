@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinator</title>
+    include <link rel="stylesheet" href="./combinator.css">
+    
+</head>
+<body>
+    <div class="descendant-box">
+    <p>This is a descendant paragraph inside a div.</p>
+    <span><p>Nested paragraph inside span and div.</p></span>
+  </div>
+
+  <!-- Child Selector -->
+  <div class="child-box">
+    <p>This is a direct child paragraph.</p>
+    <div>
+      <p>This is a nested paragraph (not direct child).</p>
+    </div>
+  </div>
+
+  <!-- Adjacent Sibling Selector -->
+  <h2>Heading Before Paragraph</h2>
+  <p>This paragraph is adjacent to h2.</p>
+
+  <!-- General Sibling Selector -->
+  <h3>Heading Before Multiple Paragraphs</h3>
+  <p>This is the first sibling paragraph.</p>
+  <p>This is the second sibling paragraph.</p>
+
+</body>
+</html>

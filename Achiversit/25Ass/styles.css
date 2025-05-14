@@ -1,0 +1,30 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+h3 {
+    color: #3366cc;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ol[type="A"] {
+    list-style-type: upper-alpha;
+}
+
+ol[type="I"] {
+    list-style-type: upper-roman;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-top: 15px;
+}
