@@ -1,0 +1,49 @@
+.flag {
+  height: 270px;
+  width: 540px;
+  border: 1px solid #000;
+  margin-top: 250px;
+  margin-left: 500px;
+}
+
+.saffron {
+  height: 90px;
+  background-color: #FF9933;
+}
+
+.white {
+  height: 90px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green {
+  height: 90px;
+  background-color: #138808;
+}
+
+.chakra {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #000080;
+  border-radius: 50%;
+}
+.chakra::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-image: repeating-conic-gradient(
+    #000080 0deg 1.5deg,
+    transparent 1.5deg 15deg
+  );
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  mask-image: radial-gradient(circle, black 100%, transparent 100%);
+  -webkit-mask-image: radial-gradient(circle, black 100%, transparent 100%);
+}

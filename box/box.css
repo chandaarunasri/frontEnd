@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+h1{
+    text-align: center;
+
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 20px;
+}
+.box2{
+    height: 100px; 
+    width: 100px;
+    background-color: magenta;
+    border: 5px solid rgb(122, 101, 101);
+    padding:20px;
+    margin: 200px auto;
+}
