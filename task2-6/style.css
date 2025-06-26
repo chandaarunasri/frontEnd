@@ -1,0 +1,19 @@
+.table{
+    border:1px solid black;
+    width:600px;
+    height:400px;
+}
+
+.row1,.row2,.row3{
+    border: 1px solid black;
+    height: 100%;
+    width: 100px;
+    display: flex;
+}
+ .column1,.column2,.column3{
+    border: 1px solid black;
+    width:100px;
+ }
+ .1{
+    backgr
+ }
