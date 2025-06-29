@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Flip Card</title>
+    <style>
+        .card-container {
+            height: 200px;
+            width: 150px;
+            margin: 100px auto;
+        }
+
+        .card {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+
+        .card-container:hover .card {
+            transform: rotateY(180deg);
+        }
+
+        .front, .back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .front {
+            background: #4CAF50;
+            color: white;
+        }
+
+        .back {
+            background:rgb(73, 66, 66);
+            color:black;
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <div class="front">Front Side</div>
+            <div class="back">Back Side</div>
+        </div>
+    </div>
+</body>
+</html>
